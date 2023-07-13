@@ -10,6 +10,7 @@ const connectDB = async () => {
     // returns a promise
     await mongoose.connect(db, {
       useNewUrlParser: true,
+      // not supported -> useCreateIndex: true,
     });
 
     console.log('MongoDB Connected...');
