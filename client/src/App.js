@@ -6,29 +6,35 @@ import Register from './components/auth/Register';
 import Login from './components/auth/Login';
 import './App.css';
 
+//Redux
+import { Provider } from 'react-redux';
+import store from './store';
+
 const App = () => (
-  <Router>
-    <Navbar />
-    <Routes>
-      <Route path='/' element={<Landing />} />
-      <Route
-        path='/login'
-        element={
-          <div className='Container'>
-            <Login />
-          </div>
-        }
-      />
-      <Route
-        path='/register'
-        element={
-          <div className='Container'>
-            <Register />
-          </div>
-        }
-      />
-    </Routes>
-  </Router>
+  <Provider store={store}>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Landing />} />
+        <Route
+          path='/login'
+          element={
+            <div className='container'>
+              <Login />
+            </div>
+          }
+        />
+        <Route
+          path='/register'
+          element={
+            <div className='container'>
+              <Register />
+            </div>
+          }
+        />
+      </Routes>
+    </Router>
+  </Provider>
 );
 
 export default App;
