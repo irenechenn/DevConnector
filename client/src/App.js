@@ -4,6 +4,8 @@ import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
+import Alert from './components/layout/Alert';
+
 import './App.css';
 
 //Redux
@@ -14,12 +16,15 @@ const App = () => (
   <Provider store={store}>
     <Router>
       <Navbar />
+
       <Routes>
         <Route path='/' element={<Landing />} />
+
         <Route
           path='/login'
           element={
             <div className='container'>
+              <Alert />
               <Login />
             </div>
           }
@@ -28,6 +33,7 @@ const App = () => (
           path='/register'
           element={
             <div className='container'>
+              <Alert />
               <Register />
             </div>
           }
