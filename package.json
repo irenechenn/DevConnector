@@ -9,7 +9,6 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  
   "author": "Irene",
   "license": "ISC",
   "dependencies": {
@@ -19,6 +18,7 @@
     "express-validator": "^7.0.1",
     "gravatar": "^1.8.2",
     "jsonwebtoken": "^9.0.1",
+    "mongodb": "^2.2.36",
     "mongoose": "^7.3.2",
     "request": "^2.88.2"
   },

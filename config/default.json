@@ -1,5 +1,5 @@
 {
-    "mongoURI": "mongodb+srv://irene123:irene123@devconnector.fm7ybft.mongodb.net/",
+    "mongoURI":"mongodb+srv://irene123:irene123@devconnector.fm7ybft.mongodb.net/",
     "jwtToken": "mysecrettoken",
     "githubClientId": "f250e1f2beb5e61034dc",
     "githubSecret":"438bcf60dc58f562b9befda1c15bacb7c82c7e1a"
