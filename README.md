@@ -7,6 +7,6 @@ DevConnector is a social networking platform designed for developers, by develop
 - Profiles: Showcase your work, your tech stack, and your journey.
 - Posts: Share updates, write tech blogs, or ask questions.
 - Network: Connect with developers worldwide.
-- Collaborate: Find partners for hackathons, open-source projects, or even job opportunities.a
+- Collaborate: Find partners for hackathons, open-source projects, or even job opportunities.
 
 
